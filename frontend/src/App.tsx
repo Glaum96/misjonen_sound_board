@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Haakon
+          Learn Haakonwefwee
         </a>
       </header>
     </div>
