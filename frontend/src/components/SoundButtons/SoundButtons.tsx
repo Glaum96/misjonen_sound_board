@@ -10,13 +10,6 @@ const audioClips = [
 
 class SoundButtons extends Component {
 
-  SoundPlay = (mp3:string, webm:string) => {
-    const sound:Howl = new Howl({
-      src: [webm,mp3]
-    });
-    console.log(sound);
-    sound.play();
-  }
 
   RenderButtonAndSound = () => {
     return audioClips.map((soundObj, index) => {

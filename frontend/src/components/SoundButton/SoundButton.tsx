@@ -1,19 +1,15 @@
-import React from 'react';
+import useSound from 'use-sound';
+import audio from "../../assets/Cat.mp3";
 
 function SoundButton() {
+  const [play] = useSound(audio);
 
-  let audio = new Audio("../../assets/Cat.mp3");
-
-
-  function playSound() {
-    console.log("HEI");
-    audio.play().catch((err) => console.log(err));
-}
   return (
     <div>
-      <button onClick={playSound}>Ja morna</button>
+      <button onClick={() => play}>Ja morna</button>
     </div>
   );
 }
 
 export default SoundButton;
+

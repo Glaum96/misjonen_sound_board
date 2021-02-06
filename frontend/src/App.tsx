@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import SoundButtons from './components/SoundButtons/SoundButtons';
+import SoundButton from './components/SoundButton/SoundButton';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <SoundButtons/>
+      <SoundButton/>
     </div>
   );
 }
