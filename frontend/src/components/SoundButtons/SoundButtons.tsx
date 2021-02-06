@@ -3,7 +3,8 @@ import { Howl, Howler } from 'howler';
 
 const audioClips = [
   {mp3: '../../../public/assets/Cat.mp3', webm: '../../../public/assets/Cat.webm', label: "Cat"},
-  {mp3: '../../../public/assets/Dog.mp3', webm: '../../../public/assets/Dog.webm', label: "Dog"}
+  {mp3: '../../../public/assets/Dog.mp3', webm: '../../../public/assets/Dog.webm', label: "Dog"},
+  {mp3: '../../../public/assets/Dog.mp3', webm: '../../../public/assets/Dog.webm', label: "Mjau"}
 ]
 
 
